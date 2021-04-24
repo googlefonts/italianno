@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/divisionslash",
 "/dotbelowcomb",
@@ -66,16 +66,12 @@ DisplayStrings = (
 "/A.sc/Aacute.sc",
 "/caroncomb.alt",
 "/L.ss01_caron",
-"",
-"",
-"",
 "/circumflexcomb_hookabovecomb.case",
 "/circumflexcomb_tildecomb.case",
 "Chuyeenj/space này/space không/space ph/ahookabove i/space ngày/space m/ocircumflexdotbelow t/space ngày/space hai/space là/space xong/space/dcroat âu.",
-"",
 "-­"
 );
-copyright = "\\251 2009 Robert E. Leuschke -- This font is not Shareware and may not be copied, sold, distributed or shared without permission from Gideon, Inc.  114 Long and Winding Road, St. Peters, MO 63376  USA Distributed by MyFONTS.com";
+copyright = "Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)";
 customParameters = (
 {
 name = panose;
@@ -101,7 +97,6 @@ value = (
 {
 name = fsType;
 value = (
-2
 );
 },
 {
@@ -780,9 +775,24 @@ A.sm_ring,
 NULL,
 CR
 );
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
 }
 );
-date = "2010-04-25 21:42:52 +0000";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+}
+);
+date = "2021-04-24 19:48:20 +0000";
+designer = "Robert E. Leuschke";
+designerURL = www.typesetit.com;
 familyName = ItaliannoRob;
 featurePrefixes = (
 {
@@ -78465,8 +78475,9 @@ comma = -8;
 };
 };
 };
-manufacturer = "\\ Robert E. Leuschke -- This font is not Shareware and may not be copied, sold, distributed or shared without permission from Gideon, Inc";
+manufacturer = "Robert E. Leuschke";
+manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
