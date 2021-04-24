@@ -74,6 +74,18 @@ DisplayStrings = (
 copyright = "Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)";
 customParameters = (
 {
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
 name = panose;
 value = (
 2,
@@ -107,6 +119,10 @@ value = 0.26186;
 name = glyphOrder;
 value = (
 .notdef,
+CR,
+NULL,
+space,
+nbspace,
 exclam,
 quotedbl,
 numbersign,
@@ -241,7 +257,6 @@ Delta,
 guillemotleft,
 guillemotright,
 ellipsis,
-nbspace,
 endash,
 emdash,
 quotedblleft,
@@ -693,7 +708,6 @@ florin.taboldstyle,
 percent.oldstyle,
 perthousand.oldstyle,
 numbersign.taboldstyle,
-space,
 a.begin,
 b.begin,
 c.begin,
@@ -771,9 +785,7 @@ A.sm_dieresis,
 A.sm_tilde,
 A.sm_macron,
 A.sm_grave,
-A.sm_ring,
-NULL,
-CR
+A.sm_ring
 );
 },
 {
@@ -793,7 +805,7 @@ value = 1;
 date = "2021-04-24 19:48:20 +0000";
 designer = "Robert E. Leuschke";
 designerURL = www.typesetit.com;
-familyName = ItaliannoRob;
+familyName = Italianno;
 featurePrefixes = (
 {
 automatic = 1;
@@ -970,6 +982,48 @@ width = 169;
 }
 );
 note = .notdef;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
+width = 169;
+}
+);
+note = CR;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
+width = 0;
+}
+);
+note = NULL;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
+width = 169;
+}
+);
+note = space;
+unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
+width = 166;
+}
+);
+note = nbspace;
+unicode = 00A0;
 },
 {
 glyphname = exclam;
@@ -15856,17 +15910,6 @@ width = 460;
 );
 note = ellipsis;
 unicode = 2026;
-},
-{
-glyphname = nbspace;
-layers = (
-{
-layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 166;
-}
-);
-note = nbspace;
-unicode = 00A0;
 },
 {
 glyphname = endash;
@@ -42943,17 +42986,6 @@ width = 395;
 note = numbersign.taboldstyle;
 },
 {
-glyphname = space;
-layers = (
-{
-layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 169;
-}
-);
-note = space;
-unicode = 0020;
-},
-{
 glyphname = c_u;
 lastChange = "2021-04-23 14:54:22 +0000";
 layers = (
@@ -43315,26 +43347,6 @@ width = 363;
 }
 );
 note = tt;
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 0;
-}
-);
-note = NULL;
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 169;
-}
-);
-note = CR;
 },
 {
 glyphname = Abreveacute;
@@ -78351,16 +78363,7 @@ width = 600;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "ItaliannoRob-Regular";
-},
-{
-name = postscriptFontName;
-value = "ItaliannoRob-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "A626400C-4409-4FF6-B7A4-72C4E5A5721C" = 1;
 };
