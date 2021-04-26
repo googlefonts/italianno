@@ -69,7 +69,8 @@ DisplayStrings = (
 "/circumflexcomb_hookabovecomb.case",
 "/circumflexcomb_tildecomb.case",
 "Chuyeenj/space này/space không/space ph/ahookabove i/space ngày/space m/ocircumflexdotbelow t/space ngày/space hai/space là/space xong/space/dcroat âu.",
-"-­"
+"-­",
+"T/.notdef nela"
 );
 copyright = "Copyright 2009 The Italianno Project Authors (https://github.com/googlefonts/italianno)";
 customParameters = (
@@ -909,31 +910,35 @@ capHeight = 577;
 customParameters = (
 {
 name = typoAscender;
-value = 613;
+value = 800;
 },
 {
 name = typoDescender;
-value = -350;
+value = -450;
 },
 {
 name = typoLineGap;
-value = 72;
-},
-{
-name = winAscent;
-value = 699;
-},
-{
-name = winDescent;
-value = 387;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 699;
+value = 800;
 },
 {
 name = hheaDescender;
-value = -387;
+value = -450;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = -560;
 },
 {
 name = strikeoutPosition;
@@ -975,10 +980,31 @@ xHeight = 273;
 glyphs = (
 {
 glyphname = .notdef;
+lastChange = "2021-04-26 04:18:33 +0000";
 layers = (
 {
 layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 169;
+paths = (
+{
+closed = 1;
+nodes = (
+"343 12 LINE",
+"343 589 LINE",
+"55 589 LINE",
+"55 12 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"93 553 LINE",
+"305 553 LINE",
+"305 47 LINE",
+"93 47 LINE"
+);
+}
+);
+width = 398;
 }
 );
 note = .notdef;
@@ -1016,12 +1042,14 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
+lastChange = "2021-04-26 04:15:33 +0000";
 layers = (
 {
 layerId = "A626400C-4409-4FF6-B7A4-72C4E5A5721C";
-width = 166;
+width = 169;
 }
 );
+widthMetricsKey = space;
 note = nbspace;
 unicode = 00A0;
 },
